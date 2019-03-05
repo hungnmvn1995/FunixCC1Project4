@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	overflow-x: hidden;	
+}
+
+header a {
+	font-weight: bold;
+}
+
+#myCarousel {
+	padding-right: auto;
+}
+
+footer {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+section img {
+	border: solid black 5px;
+}
+
+.card-header {
+	background-color: white;
+}
+
+div .img-fluid {
+	border: solid black 2px;
+}
+
+@media only screen and (max-width: 768px){
+	section img {
+		border: solid black 2px;
+	}
+	p {
+		font-size: 12px;
+	}
+	
+}
